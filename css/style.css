@@ -1,0 +1,218 @@
+/*common css start*/
+body{
+	margin: 0;
+font-family:'Playfair Display',serif;
+font-size: 16px;
+font-weight: 400;
+color: #626262;
+}
+/*common css end*/
+/*header start*/
+header{
+padding: 30px 0;
+}
+.container{
+	margin: 0 auto;
+width: 90%;
+overflow: hidden;
+}
+.logo{
+width: 12%;
+float: left;
+}
+.logo img{
+width: 100%;
+}
+.menu{
+width: 65%;
+float: right;
+}
+.menu ul{
+	margin: 0;
+float: right;
+}
+.menu ul li{
+list-style: none;
+float: left;
+}
+.menu ul li a{
+	margin: 6px 50px;
+	padding: 5px 0px;
+display: block;
+color: #626262;
+text-decoration: none;
+text-transform:uppercase;
+border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+padding-right: 0;
+}
+.menu ul li a:hover{
+border-bottom: 1px solid #626262;
+transition: .33s;
+color:#0000ff ;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+width: 100%;
+}
+/*banner end*/
+/*perfect start*/
+.perfect{ 
+padding: 100px 0 ;
+ }
+.container2{
+margin: 0 auto;
+width: 80%;
+overflow: hidden;
+}
+.c_light{
+	margin: 0;
+font-family: 'Ubuntu',sans-serif;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+}
+.c_title{
+	margin: 20px 0 25px;
+font-size: 30px;
+font-weight: 400;
+}
+.c_text{
+	margin: 0;
+line-height: 24px;
+}
+.c_mb{
+margin-bottom: 45px;
+}
+/*perfect end*/
+/*blog start*/
+.blog{
+padding-bottom: 100px;
+}
+.s_blog{
+width: 47%;
+float: left;
+margin-right: 6%;
+}
+.sb_mt{
+margin-top: 80px;
+}
+.s_blog:nth-child(even){
+margin-right: 0;
+}
+.s_img{
+margin-bottom: 20px;
+}
+.s_img img{
+width: 100%;
+}
+/*blog end*/
+/*news start*/
+.news{
+margin: 70px 0;
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+.signup{
+text-align: center;
+}
+.s_h1{
+color: #333333;
+margin-top: 0;
+margin-bottom: 70px;
+}
+.s_form{
+	position: relative;
+width: 400px;
+margin: 0 auto;
+}
+.s_form input{
+font-family: 'Playfair Display' serif;
+font-size: 14px;
+color: #626262;
+width: 345px;
+height: 45px;
+border: none;
+border-bottom: 1px solid #000000;
+padding-left: 5px;
+padding-right: 45px;
+background: transparent;
+}
+.s_form input:focus{
+outline: 0;
+}
+.s_form button{
+	position: absolute;
+background: transparent;
+border: none;
+cursor: pointer;
+top: 15px;
+right: 0;
+}
+.s_form button:focus{
+outline: 0;
+}
+.s_form button img{}
+/*news end*/
+/*blog2 start*/  
+.blog2{
+	padding: 20px 0 100px;
+}
+.load{
+	margin: 100px 0;
+text-align: center;
+}
+.load button{
+width: 165px;
+height: 60px;
+background-color: white;
+border: 1px solid #626262;
+font-size: 16px;
+font-weight: 400;
+color: #626262;
+cursor: pointer;
+}
+.load button:hover{
+background-color: #626262;
+color: white;
+transition: .33s;
+} 
+/*blog2 end*/
+/*footer start*/
+footer{
+	background-color: #f0f0f0;
+}
+.footer-menu ul{
+float: left;
+}
+.footer-menu ul li{
+list-style: none;
+float: left;
+}
+.footer-menu ul li a{
+	margin: 17px 10px;
+	cursor: pointer;
+text-decoration: none;
+color: #000000;
+}
+.footer ul li a:hover{}
+.social-menu{}
+.social-menu ul{
+float: right;
+}
+.social-menu ul li{
+list-style: none;
+float: left;
+}
+.social-menu ul li span{}
+.social-menu ul li a{
+	margin: 17px 10px;
+text-decoration: none;
+cursor: pointer;
+}
+.social-menu ul li a:hover{}
+/*footer end*/
